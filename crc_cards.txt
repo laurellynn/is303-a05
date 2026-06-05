@@ -1,0 +1,18 @@
+Class: SONGS                       | 
+Responsibilities                   | Collaborators
+-----------------------------------|----------------------------------------
+Knows the title, artist, duration
+Can display songs as string
+Can find songs over 5 min
+
+
+
+Class: PLAYLIST                     |
+Responsibilities                    |Collaborators
+------------------------------------|----------------------------------------
+Knows playlist name                 |
+Knows all songs in playlist         | Songs
+Knows playlist runtime              | Songs
+Can add a song                      | Songs
+Can delete a song                   | Songs
+Can Show full playlist              | Songs
